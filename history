@@ -1,0 +1,1726 @@
+
+mv ~/.p10k.zsh ./p10k.zsh
+ls
+ls
+p10k.zsh
+vim p10k.zsh
+vim p10k.zsh
+p10k configure
+ls
+pwd
+ls
+vim ~/.p10k.zsh
+vim .zshrc
+mv .p10k.zsh .zsh/
+ls .zsh
+vim .zshrc
+vim .zshrc
+cd .zsh
+ls
+ll
+ls -al
+mv .p10k.zsh p10k.zsh
+ls
+rm p10k.zsh
+source
+ls
+pwd
+cd .zsh
+ls
+vim p10k.zsh
+pwd
+ls
+cd Docu
+cd ~/DOcu
+cd ..
+cd Documents
+ls
+kls
+ld
+ls
+cd Ascii_image_taker
+ls
+cd ..
+ls -al
+vim .viminfo
+vim .viminfo
+brew install vim
+vim remove vim
+brew remove vim
+vim .zshrc
+cd zsh
+cd .zsh
+ls
+vim vim p10k.zsh
+vim p10k.zsh
+vim p10k.zsh
+brew info vim
+brew remove lua perl python@3.8 ruby
+brew list
+brew remove sqlite
+vim
+ls
+ls -al
+vim .viminfo
+vim .viminfo
+ls -al
+vim .viminfo
+echo $MYVIMRC
+rm .wget-hsts
+wget
+cd .cache
+ls
+cd ..
+vim vimrc
+vim zshr
+vim .zshrc
+\:q
+cd .zsh
+ls
+vim p10k.zsh
+vim .zshrc
+vim .zshrc
+ls -al
+mv vimrc .vimrc
+vim .zshrc
+mv .vimrc .zsh/
+ls
+ls -al
+vim ~/.vimr
+vim ~/.zshrc
+ls -al
+vim .zsh_history
+vim .zsh
+cd .zsh
+ls
+vim history
+cd ..
+ls
+ls -al
+rm .zsh_history
+ls
+ls
+ls -al
+cd .vim
+ls
+ls -al
+cd ..
+rm -fr .vim
+ls
+ls -al
+vim .zshrc
+cd .zsh
+ls
+ls -al
+mv .vimrc vimrc
+ls
+cd ..
+vim .zshrc
+vim .zshrc
+vim .zshrc
+vim .zshrc
+conf
+config
+conf
+cd .zsh
+ls
+rm vimrc r
+rm vimrc
+;s
+ls
+conf
+ls -a
+ls -al
+mv .viminfo .vim/viminfo
+ls
+conf
+vim .zsh/aliasrc
+conf
+echo $MYVIMRC
+vim $MYVIMRC
+conf
+vim
+ls
+ls -al
+mkdir .vim
+vim .vim/vimrc
+cd /usr/share/zsh/plugins/zsh-syntax-highlighting/
+cd /usr/share/zsh/
+ls
+cd 5.7.1
+ls
+cd functions
+ls
+brew list
+brew info zsh-syntax-highlighting
+usr/local/Cellar/zsh-syntax-highlighting/0.7.1
+cd usr/local/Cellar/zsh-syntax-highlighting/0.7.1
+cd usr/local/Cellar/zsh-syntax-highlighting/
+conf
+ls
+ll
+vim .viminfo
+vim .vim/vim
+vim .vim/vimrc
+rm .viminfo
+rm .vim/viminfo
+conf
+ls
+ll
+ll
+ll .vim
+ls
+ll
+ll
+cd .zsh
+ls
+vim p10k.zsh
+for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done
+vim p10k.zsh
+conf
+conf
+vim ../aliasrc
+brew install zsh-autosuggestions
+conf
+conf
+ls
+cd .zsh
+ls
+git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"\
+
+ls
+cd pure
+ls
+wget https://github.com/ChrisTitusTech/zsh/raw/master/.zshrc -O ./backup\
+
+ls
+vim backup
+rm backup
+conf
+conf
+conf
+ls
+ll
+ll
+conf
+vim .zsh/aliasrc
+vim .zsh/aliasrc
+vim .zsh/aliasrc
+conf
+cd .zsh
+ls
+vim p10k.zsh
+p10k configure
+conf
+cd .zsh
+ls
+vim p10k.zsh
+p10k configure
+p10k configure
+p10k configure
+ls
+ll
+ls
+cd..
+cd
+ls
+ll
+echo
+cd .zsh
+ls
+p10
+p10k configure
+echo
+ls
+ll
+ll
+exit
+cd Documents/
+cd ../Documents/Ascii_image_taker
+ls
+pdw
+pwd
+ls
+ll
+ls
+ll
+
+ls
+ll
+ls
+cd ..
+ls
+ll
+mv -r .oh-my-zsh .zsh/
+mv .oh-my-zsh .zsh/
+ll .zsh
+mv .zsh/.oh-my-zsh .zsh/oh-my-zsh
+ll .zsh
+conf
+vim .zsh/p10k.zsh
+p10k configure
+echo $TMPDIR
+conf
+ls
+ls
+pwd
+cd Documents
+ls
+cd Ascii_image_taker
+cd ~/zsh
+cd ~/.zsh
+p10k configure
+ls
+pwd
+ls
+conf
+conf
+ll
+conf
+vim p10k.zsh
+ls
+ll
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ls
+ll
+rm .zsh_history
+rm .zshrc.swp
+ll
+exi
+exit
+pwd
+ll
+conf
+lw
+pwd
+cd Documents/Ascii_image_taker
+ls
+ll
+conf
+ll
+pwd
+ls
+cd
+ls
+ll
+ls
+ll
+uninstall_oh_my_zsh
+ll
+rm .zsh_history .zshrc.omz-uninstalled-2020-08-09_13-25-11 .zcompdump .zcompdump-Martinâ€ƒ¹s\ MacBook\ Pro-5.7.1
+ll
+cd DOcu
+cd Documents
+ll
+pwd
+ll
+cd Ascii_image_taker
+ll
+vim ~/.zsh/aliasrc
+ll
+for i in {0..255}; do print -Pn "%K{$i}  %k%F{$i}${(l:3::0:)i}%f " ${${(M)$((i%6)):#3}:+$'\n'}; done\
+
+ll
+vim .zsh/p10k.zsh
+ls
+ll
+pwd
+confdir
+ll
+ll
+p10k configure
+pwd
+pwd
+lsmp
+ls
+ls 
+ll
+cd Documents
+cd ..
+ll
+ls
+cd DOcu
+conf
+ll
+pwd
+ls
+ll
+pwd
+conf
+exit
+ls
+conf
+confdir
+vim p10k.zsh
+cd ..
+pwd
+pwd
+cd Documents/Ascii_image_taker
+pwd
+ll
+exitg
+exit
+cd Downloads
+ls
+unzip
+unzip flutter_macos_1.20.1-stable.zip
+ll
+rm .DS_Store .localized flutter
+rm .DS_Store .localized flutter -rf
+rm .DS_Store .localized
+rm -rf flutter
+ll
+unzip 
+unzip flutter_macos_1.20.1-stable.zip -d ~/.flutter
+conf
+ll
+rm flutter_macos_1.20.1-stable.zip
+cd ..
+mkdir .flutter
+ll
+cd .flutter
+pwd
+ll
+cd flutter
+cd ..
+mv flutter/* ./
+ll
+cd flutter
+cd ..
+ls
+ll
+cd flutter
+ll
+cd ..
+mv flutter/*(DN) ./
+ll
+cd flutter
+ll
+cd ..
+ll
+rm flutter
+rm -f flutter
+rm -d flutter
+ll
+ll
+flutter doctor
+flutter doctor
+conf
+flutter doctor
+cd $FLUTTER_HOME
+conf
+cd ~/.zsh/
+ll
+vim aliasrc
+flutter doctor
+sudo spctl --add $FLUTTER_HOME/bin/cache/dart-sdk/bin/dart
+flutter doctor
+flutter doctor
+flutter doctor
+flutter doctor
+exit
+ll
+ll
+rm .zcompdump
+ll
+ll
+ls
+ll
+flutter doctor
+flutter doctor --android-licenses
+flutter doctor --android-licenses
+flutter doctor --android-licenses
+flutter doctor
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+sudo gem install cocoapods
+flutter doctor
+cd Documents/Ascii_image_taker
+code ,
+code .
+conf
+ll
+cd Documents/Ascii_image_taker
+code .
+flutter -h
+ls
+cd Documents
+ls
+flutter -h
+flutter --help
+flutter update
+code .
+cd Documents
+fluttr -h
+flutter -h
+flutter upgrade
+flutter create
+cd Documents
+flutter create
+flutter create
+flutter -h
+cd ..
+ls
+ll
+vim .flutter_tool_state
+ll .flutter
+ll
+rm .flutter_tool_state
+flutter -h
+ll
+cd .flutter
+ll
+cd bin
+ls
+ll
+vim flutter
+vim flutter flutter.bat
+ll
+cd internal
+ll
+cd ..
+ll
+cd ..
+ll
+cd bin
+ll
+cd internal
+ll
+vim engine.version
+mv engine.version engine.version.back
+flutter -h
+mv engine.version.back engine.version
+vim engine.version
+vim engine.merge_method
+cd ..
+ll
+cd cache
+ll
+vim lockfile
+vim flutter_version_check.stamp
+ll
+vim flutter_sdk.stamp
+cd ..
+ll
+cd internal
+ll
+vim engine.version
+flutter -h
+vim engine.version
+flutter -h
+ll
+vim engine.version
+cd ..
+ll
+pwd
+cd ..
+ll
+cd bin
+ll
+cd cache
+ll
+rm -rf ../cache
+cd ..
+ll
+flutter -h
+flutter config --no-analytics
+cd ~/Documents
+flutter create
+code ./Ascii_image_taker
+flutter create --org com.tinycorp pomodoroRPG
+cd pomodoroRPG
+code .
+cd Documents
+code ./Ascii_image_taker
+code ./Ascii_image_taker
+cd pomodoroRPG
+code .
+git init
+git add .
+git commit -m "init"
+git log
+git reset --hard
+git reset --hard
+git reset --hard
+exit
+git add .
+git commit -m "Added smooth/rigit slider"
+git log
+q
+exit
+git add .
+git commit -m "Cleaned up a bit"
+git config --global --edit
+git log
+git commit --amend
+git log
+git add .
+git commit -m "Added myself"
+git log
+exit
+exit
+git add .
+git commit -m "Fixed sectors"
+exit
+cd Documents/pomodoroRPG
+code 
+code .
+java
+cd /Library/Java/JavaVirtualMachines
+ll
+ls
+open .
+java --version
+cd android
+./gradlew signinReport
+cd /Users/mitch/Library/Android/sdk
+ls
+ll
+ll build-tools
+ll platform-tools
+ll
+ll tools
+ll tools/bin
+ll
+cd ..
+ll
+cd sdk
+ll
+cd /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk
+ll
+java --version
+ll
+cd ~
+ll
+vim .gitconfig
+cd .config
+ll
+cd ..
+ll
+ll .gradle
+ll
+ll .cups
+ll
+cd .zsh
+ll
+vim aliasrc
+conf
+homebrew -h
+brew -h
+brew list java
+brew search java
+brew install java11
+cd Documents/pomodoroRPG
+code .
+brew cask install java11
+brew tap homebrew/cask-versions
+brew cask install java11
+java
+./gradlew singInProfile
+ll
+ll .cache
+ll
+rm .zshrc.swp
+ll
+./gradlew singInProfile
+gradlew singInProfile
+./gradle singInProfile
+ls
+ll
+cd android
+./gradle singInProfile
+ll
+gradlew singInProfile
+./gradlew singInProfile
+./gradlew singInProfile
+./gradlew tasks
+./gradlew tasks | grep "sign"
+./gradlew signingReport
+flutter clean
+flutter clean
+flutter clean
+flutter clean
+flutter clean
+git add .
+git commit -m "Added firebase"
+cd Documents/pomodoroRPG
+git status
+git add .
+git commit -m "Added basic models"
+git remote add origin https://github.com/TheWalkingFridge/PomodoroRPG.git
+git push 
+git push --set-upstream origin master
+brew install protobuf
+vim ~/.zshrc
+go --version
+go version
+vim ~/.bashrc
+ll
+echo $PATH
+echo $PATH
+echo $PATH
+echo $PATH
+vim ~/.zshrc
+echo $PATH
+vim ~/.zshrc
+echo $PATH
+ll
+less /etc/paths
+less /etc/paths
+go version
+where go
+vim ~/.zshrc
+export GO111MODULE=on
+less ~/.zshrc
+$ go get github.com/golang/protobuf/protoc-gen-go\
+
+go get github.com/golang/protobuf/protoc-gen-go\
+
+export PATH="$PATH:$(go env GOPATH)/bin"
+printevn
+zsh
+echo $PATH
+export PATH="$PATH:$(go env GOPATH)/bin"
+echo $PATH
+echo $PATH
+echo $PATH
+go version
+echo $PATH
+echo $GOPATH
+ll
+ls
+ll
+cd .zsh
+ls
+ll
+less aliasrc
+ls
+cd ..
+pwd
+ll
+cd go
+ls
+ll
+cd ..
+less /etc/profile
+less /etc/paths.d
+less /etc/paths.d/go 
+vim /etc/paths.d/go
+rm /etc/paths.d/go
+sudo rm /etc/paths.d/go
+conf
+conf
+echo $FLUTTER_HOME
+ls
+cd Documents
+ls
+mkdir gRPC
+cd gRPC
+git clone -b v1.31.0 https://github.com/grpc/grpc-go
+ls
+cd ..
+mv gRPC/grpc-go ./
+ll
+rmdir grpc-go
+rmdir gRPC
+ll
+cd grpc-go
+ls
+ll
+cd examples/helloworld
+ls
+code .
+go run greeter_server/main.go
+cd Documents
+mkdir revive
+cd revive
+git clone https://github.com/revivejobtech/revive-backend.git
+	ls
+git clone https://github.com/revivejobtech/revive-app.git
+cd revive-backend
+code .
+brew install pip
+brew install python
+python --version
+python3 --version
+pip3 --version
+psql --version
+ps -ef | grep postgres\
+
+ps -ef | grep postgres\
+
+cd Documents/revive
+cd revive-backend
+pip3 --help
+pip3 install virtualenv
+virtualenv revive
+virtualenv env
+git reset --hard
+cd ..
+rm -rf revive-backend
+ll
+git clone https://github.com/revivejobtech/revive-backend.git
+cd revive-backend
+code .
+virtualenv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+ps -ef | grep postgres\
+
+python3 manage.py runserver
+python3 manage.py runserver
+python3 manage.py runserver
+cd /Library/PostgreSQL/13/
+ls
+ll
+open uninstall-postgres.app\
+\
+
+ll
+open uninstall-postgresql.app
+cd ..
+git clone https://github.com/revivejobtech/revive-indeed-scraper
+cd revive-indeed-scraper
+code .
+git pull origin master
+virtualenv -p python3 venv\
+
+souce venv/bin/activate
+source venv/bin/activate
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+rm tmp/.s.PGSQL.5432.lock
+rm tmp/
+ll
+ps -ef | grep postgres\
+
+cd Documents
+cd revive
+cd revive-indeed-scraper
+code .
+source venv/bin/activate
+git pull origin master
+pip install -r requirements.txt
+psql --version
+psql
+psql
+psql
+cd /Applications/Postgres.app/Contents/Versions/latest/bin
+pwd
+conf
+source ~/.bashr
+source ~/.bashrc
+source ~/.zshrc
+psql --version
+cd ~/Documents/revive/revive-indeed-scraper
+pip3 install -r requirements.txt
+python cmd.py --init-db
+python3 cmd.py --init-db
+cd ../revive-app
+cd ../revive-backend
+code .
+python3 manage.py runserver
+source venv/bin/activate
+python3 manage.py runserver
+python3 manage.py runserver
+python3 manage.py runserver
+python3 manage.py createsuperuser
+source venv/bin/activate
+python3 manage.py createsuperuser
+node -v
+conf
+cd Documents/revive
+git clone https://github.com/revivejobtech/revive-app.git
+ll
+cd revive-app
+\
+
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -U postgres -W revivejobs1234 revive_db
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -U postgres
+psql -h <host> -p <port> -u <database>\
+
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -u revive_db
+psql --help
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -d revive_db
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -U postgres -W revivejobs1234
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -U postgres -W revivejobs1234
+psql -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 -U postgres -W revive_db
+pg_dump 
+pg_dump -U postgres -h revive-db-staging.cija5pvk2mmq.eu-west-2.rds.amazonaws.com -p 5432 revive_db > revive_db_backup\
+
+ll
+psql --help
+psql revive_db
+ll
+psql revive_db
+psql -U postgress revive_db
+psql -U postgres revive_db
+psql -h localhost -U postgres revive_db < 
+psql -h localhost -U postgres revive_db 
+psql -h localhost -U postgres revive_db < revive_db_backup
+cd ~/Desktop
+pwd
+code .
+source /Users/mitch/Documents/revive/revive-backend/venv/bin/activate
+/Users/mitch/Documents/revive/revive-backend/venv/bin/python3.8 /Users/mitch/.vscode/extensions/ms-python.python-2020.8.109390/pythonFiles/pyvsc-run-isolated.py pip install -U pylint
+git status
+git checkout -b feature/onboarding-addons
+git status
+git commit -am "Adds useronboarding etnicity and location features" 
+git commit --amend
+git push 
+git push --set-upstream origin feature/onboarding-addons
+psql -h localhost -U postgres revive_dn
+psql -h localhost -U postgres revive_db
+git pull origin develop
+cd ../revive-backend
+git pull origin develop
+python3 manage.py import_mentors ~/Downloads/Mentor_List_-_Sheet1.csv\
+
+source venv/bin/activate
+python3 manage.py import_mentors ~/Downloads/Mentor_List_-_Sheet1.csv\
+
+git status
+cd ..
+ls
+cd revive-backend
+ls
+cd ../revive-app
+npm run dev
+ps -ef | grep npm
+ps -ef | grep dev
+kill -9 12005
+npm run dev
+home
+cd $HOME
+ls
+vim .zshrc
+mkdir zshconfig
+cp .zshrc zshconfig
+cp -r .zsh/ zshconfig
+ll
+ll zshconfig
+cd zshconfig
+mkdir zshconfig
+git init
+git add .
+git status
+git commit -m "first"
+git remote add origin https://github.com/TheWalkingFridge/zsh.git
+git push origin master
+cd ..
+ll
+ll .zsh
+cp -r /usr/local/share/zsh-autosuggestions zshconfig
+cp -r /usr/local/share/zsh-syntax-highlighting zshconfig
+cd zshconfig
+ll
+git add .
+git commit -m "added share files"
+git push
+git push origin master
+git 
+git status
+git add .
+git status
+ls
+ll
+cd powerlevel10k
+ll
+git add .
+cd ../revive-app
+cd ../revive-backend
+source venv/bin/activate
+python3 manage.py runserver
+ps -ef | grep 8000
+ps -ef | grep python
+kill -9 13465
+ps -ef | grep python
+kill -9 16007
+ps -ef | grep python
+python3 manage.py runserver
+git reset --hard
+git checkout develop
+git pull 
+git status
+git reset --hard
+git status
+git remove revive/useronboarding/migrations/0007_careertype_ethnicity_gender_location.py
+git rm revive/useronboarding/migrations/0007_careertype_ethnicity_gender_location.py
+rm revive/useronboarding/migrations/0007_careertype_ethnicity_gender_location.py
+rm revive/users/migrations/0021_auto_20200928_1730.py
+git status
+git checkout -
+git reset develop --hard
+git status
+git status
+git log
+python3 manage.py runserver
+cd Documents/revive/revive-app
+ls
+code .
+npm install
+npm dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+cd ../revive-backend
+source venv/bin/activate
+code .
+python3 manage.py runserver
+python3 manage.py migrate
+python3 manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+sudo npm install weak -g
+pwd
+npm run dev
+cd ../revive-backend
+source venv/bin/activate
+python3 manage.py runserver
+python3 manage.py runserver
+python3 manage.py runserver
+python3 manage.py makemigrations
+python3 manage.py runserver
+git status
+rm revive_db_backup
+git status
+git diff revive/useronboarding/..
+git status
+cd ../revive-app
+git status
+git status
+git diff
+git checkout -b feature/onboarding-addons
+git add .
+git commit -m "Adds onboarding ethnicity and location steps"
+git push
+    git push --set-upstream origin feature/onboarding-addons
+ipconfig
+ipconfig getifaddr en0
+arp -a
+ifconfig | grep broadcast
+ifconfig
+arp -a
+ifconfig
+brew install ngrok
+ngrok
+brew install mitmproxy
+mitmproxy
+sudo sysctl -w net.inet.ip.forwarding=1
+vim pf.conf
+pf
+ifconfig | grep en0
+ifconfig
+q
+vim pf.conf
+sudo pfctl -f pf.conf
+sudo pfctl -f pf.conf
+sudo pfctl -e
+vim /etc/sudoers
+sudo vim /etc/sudoers
+sudo vim /etc/sudoers
+mitmproxy --mode transparent --showhost
+mitmproxy --mode transparent --showhost
+mitmproxy 
+mitmproxy --mode transparent --showhost
+mitmproxy --mode transparent --showhost
+mitmproxy --mode transparent --showhost
+vim pf.conf
+sudo pfctl -d
+sudo pfctl -f pf.conf
+sudo pfctl -s info
+sudo pfctl -f pf.conf
+sudo pfctl -e
+mitmproxy --mode transparent --showhost
+vim pf.conf
+sudo pfctl -d
+sudo pfctl -f pf.conf
+sudo pfctl -
+sudo pfctl -e
+arp -a
+ifconfig
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+ifconfig
+ifconfig
+arp -a
+arp -a
+vim .zshrc
+vim .CFUserTextEncoding pf.conf
+vim pf.conf
+sudo pfctl -f pf.conf
+sudo pfctl -e
+sudo pfctl -d
+sudo pfctl -e
+mitmproxy --mode transparent --showhost\
+
+vim pf.conf
+arp -a
+vim pf.conf
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+arp -a
+vim pf.conf
+ifconfig
+\:q
+ifconfig | grep 114
+arp -a
+arp -a
+arp -a
+arp -a
+mitmproxy --mode transparent --showhost
+mitmproxy 
+mitmproxy 
+revive
+cd Documents/revive
+ls
+cd revive-backend
+git checkout master
+git branch
+git checkout develop
+git pull
+code .
+docker ps
+docker container ps
+docker container ps
+ /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Main 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+docker 
+docker --version
+docker run hello-world
+docker ls
+docker container ls
+docker image ls
+ls
+rm pf.conf
+ls
+docker run hello-world > output.txt
+ls
+less output.txt
+rm output.txt
+docker run hello-world echo "hi there"
+docker run busybox echo "hi there"
+docker run busybox ls
+docker ps
+docker container ls
+docker is
+docker container run busybox sleep 10
+docker container run busybox sleep 10
+docker container run busybox sleep 10
+docker container ls -a
+docker container ls -all
+docker container ls 
+docker container ls -all
+docker container ls --all
+java --version
+javac --version
+ls
+cd Documents
+ls
+rm revive -rf
+rm -rf revive
+ls
+ll
+mkdir google
+cd google
+ls
+mkdir challenge1
+cd challenge1
+ls
+pwd
+ll
+code .
+ls
+javac solution.java
+ls
+java Main.class
+java Main
+l
+lll
+ll
+code .
+dockker ps
+ /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+ cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+71113 cd /Users/mitch/Documents/google/challenge1 ; /Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -cp "/Users/mitch/Library/Application Support/Code/User/workspaceStorage/1ce3fa87ed847350105af5b36b1d1824/redhat.java/jdt_ws/challenge1_9da8fe45/bin" Solution 
+docker ps
+docker images
+docker run busybox echo Helllo
+docker run busybox ping -h
+docker ps
+docker ps -a
+docker system prune
+docker images
+docker ps -a
+docker start busybox
+docker create busybox
+docker ps -a
+docker start 9193043a3cb9
+docker start -a 9193043a3cb9
+docker start -a 9193043a3cb9 echo hello
+docker system prune
+docker logs 9193043a3cb9
+docker create busybox echo hi there
+docker start 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1
+docker log 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1
+less docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 | echo
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 > echo
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 | echo
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 | echo
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 > echo
+echo < docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1
+echo
+docker logs > hello.t
+docker logs 32cd8f107f66ba297df78867a9c2de0c0261303f8b52ee90d9591fedcd538cb1 > hello.t
+ls
+rm echo
+less hello.t
+rm hello.t
+ls
+ls
+docker ls
+docker ps
+docker ps -a
+docker start 32
+docker start 32cd8f107f66
+docker ps -a
+docker start -a 32cd8f107f66
+docker run redis
+docker start -a 3cfaa668277f
+docker ps
+docker exec 3cfaa668277f redic-cli -it
+docker exec 3cfaa668277f redis-cli -it
+docker exec 3cfaa668277f -it redis-cli
+docker exec -it 3cfaa668277f  redis-cli
+docker ps
+docker stop 3cfaa668277f
+docker exec -it 3cfaa668277f  redis-cli
+docker exec -it 3cfaa668277f zsh
+docker exec -it 3cfaa668277f bash
+mv --help
+man mv
+conf
+ls
+ll
+ls
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d\
+
+ls
+ll
+./.emacs.d/bin/doom install
+brew cask install emacs
+./.emacs.d/bin/doom install
+./.emacs.d/bin/doom install
+./.emacs.d/bin/doom install
+doom 
+zshrc
+zsh
+pwd
+ll
+cd .emacs.d
+ls
+cd bin
+ls
+pwd
+conf
+zshsrc
+ls
+e
+doom
+doom emacs
+./.emacs.d/bin/doom refresh
+./.emacs.d/bin/doom sync
+doom
+ls
+doom 
+ls
+doom 
+doom run
+emacs
+ls
+ll
+cd .zsh
+ls
+cd powerlevel10k
+ls
+git pull
+ls
+prompt_powerlevel9k_setup
+./prompt_powerlevel10k_setup
+p10k configure
+ls
+ls
+p10k configure
+ls
+cd.
+conf
+ls
+xt
+conf
+e
+conf
+ls
+ls
+ll
+cd .zsh
+ls
+emacs aliasrc
+ls
+cd .zsh
+ls
+ll
+ls
+vim aliasrc
+vim aliasrc
+ls
+e aliasrc
+e zshconfig
+emaca
+emacs
+ls
+cd Documents/
+ls
+cd pomodoroRPG
+ls
+git pull
+git pull
+cd ..
+mv pomodoroRPG questie
+cd questie
+ls
+emacs .
+exit
+ls
+doom sync
+emacs
+doom sync
+emacs
+emacs
+emacs
+doom sync
+exit
+cd Documents
+ls
+cd questie
+emacs .
+doom sync
+doom sync
+exit
+cd Documents
+ls
+cd questie
+ls
+ll
+find . -name "test"
+find . -name "main"
+find . -name "main" -type d
+find . -name "main" -type f
+find . -name "main.dart"
+find . -name "main*"
+find . -name "test*"
+doom sync
+emacs
+doom sync
+exit
+doom sync
+doom sync
+exit
+doom sync
+exit
+doom sync
+doom -help
+doom --help
+doom purge
+doom sync
+doom sync
+exit
+doom purge
+doom sync
+exit
+doom sync
+exit
+cd Documents/questie
+flutter run
+flutter --help
+flutter build
+flutter help
+flutter assemble
+flutter run
+exit
+cd ../..
+ls
+vim .zshrc
+zshsource
+ls
+cd Documents
+c questie
+cd questie
+ls
+git status
+git add .
+git status
+git rm flutter_01.png
+git rm -f flutter_01.png
+ls
+git status
+git add .
+git commit -m "Added main colors"
+git commit --amend
+zshsource
+git commit --amend
+flutter clean
+flutter run
+flutter clean
+flutter build
+flutter run
+flutter build
+flutter run
+flutter run
+flutter clean
+flutter run
+flutter run
+code .
+cd Documents
+cd Questie
+ls
+flutter clean
+flutter upgrade
+code .
+cd Documents
+ls
+cd Questie
+ls
+mv statics/logo/svg/color2.svg /assets/images/logo.svg
+mkdir assets
+mkdir assets/images
+mv statics/logo/svg/color2.svg /assets/images/logo.svg
+mv statics/logo/svg/color2.svg assets/images/logo.svg
+exit
+cd Documents/Questie
+java --version
+./gradlew signingReport
+cd android
+./gradlew signingReport
+cd ..
+git add .
+git commit -m "Rename project to Questie"
+git push
+doom sync
+doom sync
+ doom sync
+ doom sync
+doom sync
+doom sync
+exit
+emacs
+emacs --no-window-system
+emacs
+emacs --no-window-system
+emulator
+python
+python
+find /. --name emulator -t d
+find /. -name emulator -t d
+find /. -name emulator -type d
+sudo find /. -name emulator -type d
+git reset --hard
+emacs -nw
+flutter run
+flutter run
+flutter run
+flutter run
+flutter run
+flutter run
+emacs
+emacs -nw
+emacs -np
+flutter run
+flutter run
+flutter run
+flutter run
+flutter run
+flutter run
+flutter run
+flutter pub get
+vim pubspec.yaml
+flutter pub get update
+flutter pub get 
+flutter run
+flutter run
+flutter run
+flutter run
+flutter pub get
+flutter run
+flutter pub get
+flutter pub get
+flutter run
+flutter pub get
+flutter pub get
+flutter run
+flutter pub get
+flutter run
+flutter run
+git add .
+git commit -m "Refactor login screen"
+flutter run
+git add .
+git commit -m "Add logger"
+git push
+flutter run
+code .
+code .
+flutter run
+flutter run
+flutter run
+code .
+cd ../..
+cd Downloads/flutter_login_ui
+code .
+cd Downloads/flutter_login_ui
+code .
+code .
+cd ~/Documents/Questie
+flutter run
+flutter run
+git status 
+git add .
+git commit -m "Add create account sheet"
+git push
+flutter run --profile
+git reset --hard
+flutter run --profile
+git status
+git log
+doom sync
+emacs -nw
+doom sync
+doom sync
+doom sync
+doom sync
+cd Documents
+ls
+cd google
+ls
+git add .
+git create
+git help
+git init
+git add .
+git commit -m "challenge3 level2 noBomb"
+git add .
+git commit --am
+git add .
+git commit --am
+git log
+git add .
+git commit -m "solution 1"
+git add .
+git commit -m "new start"
+git reset --hard
+git reset --hard
+git reset --hard
+git reset --hard
+git status
+git add .
+git commit -m "finish"
+git add .
+git commit -m "finish level 3"
+which xcode
+xcode 
+cd
+vim mnogoGotinaPrograma.py
+python mnogoGotinaPrograma.py
+vim mnogoGotinaPrograma.py
+python mnogoGotinaPrograma.py
+emacs -nw
+cd Documents/Questie
+ls
+flutter run 
+flutter run 
+flutter run
+flutter run --help
+pod init
+ls
+cd ios
+pod init
+flutter clean
+flutter build
+cd ..
+flutter build
+flutter build ios
+git status
+git checkout \
+	modified:   lib/screens/login/login.dart
+git status
+git checkout HEAD ios/Runner/AppDelegate.swift
+git status
+git checkout HEAD ios/Runner/Assets.xcassets/*
+git checkout HEAD ios/Runner/Assets.xcassets/
+git status
+git checkout HEAD ios/Runner/
+git status
+cd ios
+ls
+ll
+pod install
+flutter run
+flutter doctor
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcode-select 
+sudo xcode-select -p
+sudo xcodebuild -runFirstLaunch
+pod init
+ls
+rm Pods
+ll
+rm Podfile
+rm Podfile Podfile.lock
+ll
+rm -rf Pods
+ll
+flutter run
+cd ..
+ls
+flutter clean
+ll ios
+flutter run
+flutter doc
+flutter doctor
+sudo xcode-select --switch ~/Downloads/Xcode-beta.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+flutter doctor
+flutter run
+flutter run
+git status
+git add .
+git commit -m "Start work on character screen + IOS"
+git push
+flutter
+flutter upgrade
+doom sync
+e
+e
+e
+emacs 
+cd Documents/Questie
+flutter run
+flutter run
+e
+emacs
+cd Documents/Questie
+git status
+git add .
+git commit -m "Make pageDots stateless"
+git push
+exit
+cd Documents/Questie
+git status
+git add .
+git commit -m "Start work on character"
+git push
+git pull
+git checkout character
+ls
+ll assets
+ll assets/characters
+ll assets/characters/head
+ll assets/characters/head/hair
+flutter pub get
+flutter pub get
+flutter pub get
+cd assets/characters/head/hair
+pwd
+ll
+git add .
+git commit -am "Test hair"
+git push
+git pull
+ls
+ cd ..
+ls
+ cd..
+cd ../../..
+ls
+git pull
+ll
+cd assets/characters/base
+ll
+rm BASE_WHITE.ai
+ll
+mv 1x/* ./
+ll
+rmdir 1x
+ll
+mv L\ ARMWHITE.png left-arm.png
+mv R\ ARMWHITE.png right_arm.png
+mv left-arm.png left_arm.png
+ll
+rm BASE_WHITE.ai
+mv HEADWHITE.png head.png
+mv TORSOWHITE.png torse.png
+ll
+mv L\ LEGWHITE.png left_leg.png
+mv R\ LEGWHITE.png right_leg.png
+ll
+mv torse.png torso.png
+ll
+cd ..
+ll
+cd head
+ls
+cd face
+open .
+doom sync
+cd Documents/Questie
+flutter run
+flutter pub get
+flutter run
+flutter run
+cd Documents/Questie
+flutter pub get
+e
+cd Documents/Questie
+ls
+git status
+git add .
+git commit -m "Start work on face"
+git push
+git status
+git log
+git status
+git pull
+ll
+ll assets
+ll assets/characters/head
+flutter pub get
+flutter pub get
+git add .
+git commit -m "Add face widget"
+git push
