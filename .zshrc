@@ -1,43 +1,43 @@
-# PATHS
-ZSH_HOME=~/.zsh
-FLUTTER_HOME='/Users/mitch/.flutter'
-GO_PATH='/usr/local/go/bin'
-POSTGRESS_PATH='/Applications/Postgres.app/Contents/Versions/latest/bin'
-DOOM='/Users/mitch/.emacs.d/bin'
-PATH="$PATH:$FLUTTER_HOME/bin:$GOPATH:$POSTGRESS_PATH:$DOOM"
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-### EXPORT
-export TERM="xterm-256color"              # getting proper colors
-export HISTCONTROL=ignoredups:erasedups   # no duplicate entries
-#export EDITOR="emacsclient -t -a ''"      # $EDITOR use Emacs in terminal
-#export VISUAL="emacsclient -c -a emacs"   # $VISUAL use Emacs in GUI mode
+# Path to your oh-my-zsh installation.
+export DOOM="/home/mdimitrov/.emacs.d/bin"
+export GOPATH="/home/mdimitrov/code:/home/mdimitrov/code/src/plz-out/gen/third_party/go:/home/mdimitrov/code/src/plz-out/gen/third_party/go/kubernetes:/home/mdimitrov/code/src/plz-out/gen/third_party/go/operator-sdkcore3"
+export ZSH="/home/mdimitrov/.oh-my-zsh"
+export EDITOR='vim'
 
-# Enable colors and change prompt:
-autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+# Theme
+ZSH_THEME="powerlevel10k/powerlevel10k"
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-# History in cache directory:
-HISTSIZE=10000
-SAVEHIST=10000
-HISTFILE=$ZSH_HOME/history
-setopt appendhistory
+# Uncomment the following line to disable bi-weekly auto-update checks.
+DISABLE_AUTO_UPDATE="true"
 
-# Basic auto/tab complete
-zstyle ':completion:*' matcher-list '' '+m:{a-zA-Z}={A-Za-z}' '+r:|[._-]=* r:|=*' '+l:|=* r:|=*'
-zstyle ':completion:*:*:*:*:*' menu select
-zstyle ':completion:*' list-colors ''
-autoload -U compinit  && compinit
-setopt MENU_COMPLETE
-zmodload zsh/complist
-compinit
-_comp_options+=(globdots)
+# Uncomment the following line to automatically update without prompting.
+DISABLE_UPDATE_PROMPT="true"
 
-# Load aliases and shortcuts if existent.
-[ -f "$HOME/.zsh/aliasrc" ] && source "$HOME/.zsh/aliasrc"
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
 
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZSH_HOME/powerlevel10k/powerlevel10k.zsh-theme
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting # Always put this as the last plugin to load.
+)
+source $ZSH/oh-my-zsh.sh
 
-# To customize prompt, run `p10k configure`
-[[ ! -f $ZSH_HOME/p10k.zsh ]] || source $ZSH_HOME/p10k.zsh
+# Handle kubernetes.
+source <(kubectl completion zsh)
+complete -F __start_kubectl kubectl
+export KUBECONFIG=/home/mdimitrov/.kube/config
+for file in /home/mdimitrov/.kube/configs/*.yaml; do
+  export KUBECONFIG=$KUBECONFIG:$file
+done
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+if [ -e ~/.profile_tm ]; then source ~/.profile_tm; fi
+if [ -e ~/.bash_aliases ]; then  source ~/.bash_aliases; fi
