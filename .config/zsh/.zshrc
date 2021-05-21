@@ -1,41 +1,79 @@
-# Enable colors and change prompt.
-autoload -U colors && colors
+# Enable Powerlevel10k instant prompt. Put this at the top. Enables plugins to load
+# in the background..
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
-# To Powerlevel10k prompt, run `p10k configure` or edit ~/.p10k.zsh.
-source ~/.config/powerlevel10k/powerlevel10k.zsh-theme
-[[ ! -f ~/.config/zsh/p10k.zsh ]] || source ~/.config/zsh/p10k.zsh
+###################################################
+# Options
+setopt correct                                                  # Auto correct mistakes
+setopt extendedglob                                             # Regular expressions with * (globbing)
+setopt nocaseglob                                               # Case insensitive globbing
+setopt nocheckjobs                                              # Don't warn about running processes when exiting
+setopt numericglobsort                                          # Sort filenames numerically when it makes sense
+setopt nobeep                                                   # No beep
+setopt appendhistory                                            # Append history instead of overwriting
+setopt histignorealldups                                        # Don't duplicate history commands
+setopt autocd                                                   # If only directory path is entered, cd there.
 
-# Exports.
-export DOOM="$HOME/.emacs.d/bin"
-export ZDOTDIR="$HOME/.config/zsh"
-export EDITOR="emacsclient -t -a ''"              # $EDITOR use Emacs in terminal
-export VISUAL="emacsclient -c -a emacs"           # $VISUAL use Emacs in GUI mode
-export PATH=$PATH:"$HOME/.local/bin":$DOOM
+HISTFILE=~/.cache/zsh/zhistory
+HISTSIZE=10000
+SAVEHIST=10000
+setopt SHARE_HISTORY
+export EDITOR="emacsclient -nw"
+export VISUAL="emacsclient -nw"
+export TERM=xterm-24bit
 
-# History.
-HISTFILE=~/.histfile
-HISTSIZE=100000
-SAVEHIST=100000
-
-# Auto complete and autocomplete with case insenstivity and dotfiles.
-autoload -U compinit && compinit -u
+# Auto Completion
+autoload -U compinit
 zstyle ':completion:*' menu select
-zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'       # Case insensitive tab completion
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"         # Colored completion (different colors for dirs/files/etc)
+zstyle ':completion:*' rehash true                              # automatically find new executables in path
+# Speed up completions
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' use-cache on
 zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
-# Vi mode.
-bindkey -v
-export KEYTIMEOUT=1
+# Edit line in vim with ctrl-e. 
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^e' edit-command-line
 
-setopt extendedglob
-unsetopt autocd beep
+###################################################
+# Key bindings
+bindkey -v							                                        # Vim mode
+bindkey '^[[7~' beginning-of-line                               # Home key
+bindkey '^[[H' beginning-of-line                                # Home key
+bindkey '^[[8~' end-of-line                                     # End key
+bindkey '^[[F' end-of-line                                      # End key
+bindkey '^[[C'  forward-char                                    # Right key
+bindkey '^[[D'  backward-char                                   # Left key
 
-# Plugins.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-you-should-use/you-should-use.plugin.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+# Navigate words with ctrl+arrow keys
+bindkey '^[Oc' forward-word                                     #
+bindkey '^[Od' backward-word                                    #
+bindkey '^[[1;5D' backward-word                                 #
+bindkey '^[[1;5C' forward-word                                  #
+bindkey '^H' backward-kill-word                                 # delete previous word with ctrl+backspace
+bindkey '^[[Z' undo                                             # Shift+tab undo last action
 
-# Other.
-source $ZDOTDIR/zsh_aliases.zsh
+###################################################
+# Aliases
+alias vim="nvim"
+alias e="emacsclient -nw"
+alias zshrc="nvim ~/.config/zsh/.zshrc"
+alias src="source ~/.config/zsh/.zshrc"
+
+alias cat="bat"
+alias ls='lsd'
+alias ll="ls -al"
+
+###################################################
+# Plugins.. To configure theme type p10k.
+source $ZDOTDIR/p10k.zsh
+source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
+source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
