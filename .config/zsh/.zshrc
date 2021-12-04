@@ -60,19 +60,9 @@ bindkey '^H' backward-kill-word                                 # delete previou
 bindkey '^[[Z' undo                                             # Shift+tab undo last action
 
 ###################################################
-# Aliases
-alias vim="nvim"
-alias e="emacsclient -nw"
-alias zshrc="nvim ~/.config/zsh/.zshrc"
-alias src="source ~/.config/zsh/.zshrc"
-
-alias cat="bat"
-alias ls='lsd'
-alias ll="ls -al"
-
-###################################################
 # Plugins.. To configure theme type p10k.
 source $ZDOTDIR/p10k.zsh
+source $ZDOTDIR/zsh_aliases.zsh
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
