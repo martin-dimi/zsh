@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-palenight)
+(setq doom-theme 'doom-one)
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
@@ -52,39 +52,3 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
-
-(map! :leader
-      :desc "Show commands"
-      "SPC"
-      #'counsel-M-x)
-
-(map! :leader
-      :desc "Switch to last buffer"
-      "TAB"
-      #'evil-switch-to-windows-last-buffer)
-
-(map! :leader
-      :desc "Jump to string"
-      "j j"
-      #'avy-goto-char-timer)
-
-(map! :leader
-      :desc "Format buffer (lsp)"
-      "c f"
-      #'lsp-format-buffer)
-
-(map! :leader
-      :desc "Hot restart"
-      "m R"
-      #'flutter-hot-restart)
-
-; Remove annoying exit prompt.
-(setq confirm-kill-emacs nil)
-(setq lsp-dart-line-length 100)
-
-;; Insert mode cursor
-(use-package! evil-terminal-cursor-changer
-  :hook (tty-setup . evil-terminal-cursor-changer-activate))
-
-;(setq lsp-dart-sdk-dir `/home/fridge/.flutter/bin/cache/dart-sdk)
-;(setq lsp-dart-flutter-sdk-dir `/home/fridge/.flutter)
