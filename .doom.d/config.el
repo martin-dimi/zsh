@@ -52,3 +52,28 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(map! :leader
+      :desc "Show commands"
+      "SPC"
+      #'execute-extended-command)
+
+(map! :leader
+      :desc "Switch to last buffer"
+      "TAB"
+      #'evil-switch-to-windows-last-buffer)
+
+(map! :leader
+      :desc "Jump to string"
+      "j j"
+      #'avy-goto-char-timer)
+
+(map! :leader
+      :desc "Format buffer (lsp)"
+      "c f"
+      #'lsp-format-buffer)
+
+(map! :leader
+      :desc "Hot restart"
+      "m R"
+      #'flutter-hot-restart)
