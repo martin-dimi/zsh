@@ -6,6 +6,10 @@ fi
 
 ###################################################
 # Options
+unsetopt menu_complete
+unsetopt flowcontrol
+
+setopt auto_menu
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Regular expressions with * (globbing)
 setopt nocaseglob                                               # Case insensitive globbing
@@ -64,9 +68,17 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 source $ZDOTDIR/p10k.zsh
 source $ZDOTDIR/zsh_aliases.zsh
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
+
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+# history substring search options
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
 # Paths.
 source $ZDOTDIR/paths.zsh
