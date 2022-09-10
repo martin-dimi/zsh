@@ -1,15 +1,17 @@
+
 # Enable Powerlevel10k instant prompt. Put this at the top. Enables plugins to load
 # in the background..
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+
 ###################################################
 # Options
 unsetopt menu_complete
 unsetopt flowcontrol
 
-setopt auto_menu
+#setopt auto_menu
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Regular expressions with * (globbing)
 setopt nocaseglob                                               # Case insensitive globbing
@@ -26,7 +28,7 @@ SAVEHIST=10000
 setopt SHARE_HISTORY
 export EDITOR="emacsclient -nw"
 export VISUAL="emacsclient -nw"
-export TERM=xterm-24bit
+export TERM=xterm-256color
 
 # Auto Completion
 autoload -U compinit
@@ -41,13 +43,15 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)
 
+skip_global_compinit=1
+
 # Edit line in vim with ctrl-e. 
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 ###################################################
 # Key bindings
-bindkey -v							                                        # Vim mode
+# bindkey -v							                                        # Vim mode
 bindkey '^[[7~' beginning-of-line                               # Home key
 bindkey '^[[H' beginning-of-line                                # Home key
 bindkey '^[[8~' end-of-line                                     # End key
@@ -65,13 +69,12 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 
 ###################################################
 # Plugins.. To configure theme type p10k.
-#source $ZDOTDIR/p10k.zsh
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
-source $ZDOTDIR/zsh_aliases.zsh
+source $ZDOTDIR/.p10k.zsh
+source $ZDOTDIR/aliases.zsh
 
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source $ZDOTDIR/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
