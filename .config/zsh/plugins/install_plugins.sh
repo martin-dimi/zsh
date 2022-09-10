@@ -1,5 +1,5 @@
-#PLUGIN_DIR=$HOME/.config/zsh/plugins
-PLUGIN_DIR=$HOME/Documents/zsh/.config/zsh/plugins/
+PLUGIN_DIR=$HOME/.config/zsh/plugins
+#PLUGIN_DIR=$HOME/Documents/zsh/.config/zsh/plugins/
 
 echo "Installing xterm-24bit colors"
 /usr/bin/tic -x -o ~/.terminfo ./xterm-24bit.terminfo
