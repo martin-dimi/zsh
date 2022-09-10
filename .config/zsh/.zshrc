@@ -65,12 +65,13 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 
 ###################################################
 # Plugins.. To configure theme type p10k.
-source $ZDOTDIR/p10k.zsh
-source $ZDOTDIR/zsh_aliases.zsh
+#source $ZDOTDIR/p10k.zsh
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
+source $ZDOTDIR/zsh_aliases.zsh
 
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $ZDOTDIR/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
