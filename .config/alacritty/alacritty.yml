@@ -1,11 +1,18 @@
 env:
   # TERM variable
-  #  
+  #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
   TERM: alacritty
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach || tmux"
 
 window:
   padding:
@@ -19,6 +26,8 @@ window:
 
   # If `true`, bold text is drawn using the bright color variants.
   title: Alacritty
+
+  decorations: none
 
   # selection:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
@@ -50,40 +59,15 @@ font:
     x: 0
     y: 0
 
-colors:
-  # Default colors
-  primary:
-    background: '0x292d3e'
-    foreground: '0xd0d0d0'
-
-  # Normal colors
-  normal:
-    black:   '0x292d3e'
-    red:     '0xf07178'
-    green:   '0xc3e88d'
-    yellow:  '0xffcb6b'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x89ddff'
-    white:   '0xd0d0d0'
-
-  # Bright colors
-  bright:
-    black:   '0x434758'
-    red:     '0xff8b92'
-    green:   '0xddffa7'
-    yellow:  '0xffe585'
-    blue:    '0x9cc4ff'
-    magenta: '0xe1acff'
-    cyan:    '0xa3f7ff'
-    white:   '0xffffff'
+import:
+  - ~/.config/alacritty/themes/themes/monokai_pro.yaml
 
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
 # The opacity of the window.
 # background_opacity: 1
-background_opacity: 0.98
+window.opacity: 0.98
 
 cursor:
   style: Block
@@ -96,6 +80,22 @@ key_bindings:
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
-  # - { key: Add, mods: Control, action: IncreaseFontSize }
-  # - { key: Subtract, mods: Control, action: DecreaseFontSize }
-  # - { key: N, mods: Control, action: SpawnNewInstance }
+
+  - { key: D, mods: Command, chars: "\x02%" } # split tmux window horizontally
+  - { key: D, mods: Command|Shift, chars: "\x02\"" } # split tmux window vertically
+  - { key: J, mods: Command, chars: "\x02s" } # open interactive tmux session client
+  - { key: T, mods: Command, chars: "\x02c" } # create a new tmux window
+  - { key: W, mods: Command, chars: "\x02x" } # kill the current pane
+  - { key: O, mods: Command, chars: "\x02z" } # toggle zoom state of the current tmux pane
+  - { key: Comma, mods: Command, chars: "\x02," } # rename the current tmux window
+  - { key: LBracket, mods: Command|Shift, chars: "\x02p" } # switch to next tmux window
+  - { key: RBracket, mods: Command|Shift, chars: "\x02n" } # switch to previous tmux window
+  - { key: Key1, mods: Command, chars: "\x021" } # select tmux window 1
+  - { key: Key2, mods: Command, chars: "\x022" } #                ... 2
+  - { key: Key3, mods: Command, chars: "\x023" } #                ... 3
+  - { key: Key4, mods: Command, chars: "\x024" } #                ... 4
+  - { key: Key5, mods: Command, chars: "\x025" } #                ... 5
+  - { key: Key6, mods: Command, chars: "\x026" } #                ... 6
+  - { key: Key7, mods: Command, chars: "\x027" } #                ... 7
+  - { key: Key8, mods: Command, chars: "\x028" } #                ... 8
+  - { key: Key9, mods: Command, chars: "\x029" } #

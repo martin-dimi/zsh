@@ -1,0 +1,55 @@
+# open terminal, blazingly fast compared to iTerm/Hyper
+cmd - return : /Applications/Alacritty.app/Contents/MacOS/alacritty --working-directory ~
+
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+shift + alt - h : yabai -m window --warp west
+shift + alt - j : yabai -m window --warp south
+shift + alt - k : yabai -m window --warp north
+shift + alt - l : yabai -m window --warp east
+
+## Spaces
+alt - 1 : yabai -m space --focus 1
+alt - 2 : yabai -m space --focus 2
+alt - 3 : yabai -m space --focus 3
+alt - 4 : yabai -m space --focus 4
+alt - 5 : yabai -m space --focus 5
+# alt - [
+alt - 0x21 : yabai -m space --focus prev
+# alt - ]
+alt - 0x1E : yabai -m space --focus next
+# Move space left
+alt - n : yabai -m space --move prev
+# Move space right
+alt - p : yabai -m space --move next
+
+## Displays
+shift + alt - 1 : yabai -m display --focus 1
+shift + alt - 2 : yabai -m display --focus 2
+shift + alt - 3 : yabai -m display --focus 3
+shift + alt - 4 : yabai -m display --focus 4
+# alt - [
+shift + alt - 0x21 : yabai -m display --focus prev
+# alt - ]
+shift + alt - 0x1E : yabai -m display --focus next
+
+## Window tree
+alt - o : yabai -m window --toggle zoom-fullscreen
+alt - s : yabai -m window --toggle split
+
+shift + alt - n : yabai -m window --space prev && yabai -m space --focus prev
+shift + alt - p : yabai -m window --space next && yabai -m space --focus next
+
+alt - r : yabai -m space --rotate 90
+
+alt - g : yabai -m window --ratio abs:0.6
+
+shift + alt - 0x18 : yabai -m window --ratio rel:0.1
+shift + alt - 0x1B : yabai -m window --ratio rel:-0.1
+
+## UNBIND STUFF
+# annoying mac hide
+cmd - h : :

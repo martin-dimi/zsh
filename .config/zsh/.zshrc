@@ -86,3 +86,10 @@ bindkey '^[[B' history-substring-search-down
 
 # Paths.
 source $ZDOTDIR/paths.zsh
+
+# NVM
+source $(brew --prefix nvm)/nvm.sh
+
+if [ -d "$(brew --prefix)/opt/grep/libexec/gnubin" ]; then
+    PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"
+fi

@@ -1,0 +1,39 @@
+# for this to work you must configure sudo such that
+# it will be able to run the command without password
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+## layout
+yabai -m config layout bsp
+
+## View
+# Set all padding and gaps to 20pt (default: 0)
+yabai -m config top_padding    8
+yabai -m config bottom_padding 8
+yabai -m config left_padding   8
+yabai -m config right_padding  8
+yabai -m config window_gap     8
+
+# Floating point value between 0 and 1 (default: 0.5)
+yabai -m config split_ratio 0.66
+
+## Mouse support
+# set mouse interaction modifier key (default: fn)
+yabai -m config mouse_modifier fn
+# set modifier + left-click drag to move window (default: move)
+yabai -m config mouse_action1 move
+# set modifier + right-click drag to resize window (default: resize)
+yabai -m config mouse_action2 resize
+# set focus follows mouse mode (default: off, options: off, autoraise, autofocus)
+yabai -m config focus_follows_mouse autoraise
+# set mouse follows focus mode (default: off)
+yabai -m config mouse_follows_focus on
+
+yabai -m config window_opacity on
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 0.9
+
+yabai -m config window_border off
+yabai -m config window_border_width 1
+yabai -m config active_window_border_color 0xFFFF6188
+yabai -m config normal_window_border_color 0xff555555
