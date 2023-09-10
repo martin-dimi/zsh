@@ -1,14 +1,18 @@
 #!/usr/bin/env zsh
 
-export DOOM_PATH=$HOME/.emacs.d/bin
+export DOOM_PATH=$HOME/.config/emacs/bin
 export GOPATH=$HOME/.go
-export USERLED
+export X=/Users/martin/Downloads/ripgrep-13.0.0-x86_64-apple-darwin
 
 PATH=/opt/homebrew/bin:$PATH
-PATH=$DOOM_PATH:$GOPATH/bin:$PATH
+PATH=$DOOM_PATH:$GOPATH/bin:$X:$PATH
 
 export USERLED_HOME=$HOME/Documents/core
 export GOPATH=$HOME/.go # points to any directories which contain Go code
 
-PATH=/Users/martin/.cargo/bin:$PATH
 PATH=/usr/local/go/bin:$GOPATH/bin:$PATH
+
+# Grep
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
+
+# PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"

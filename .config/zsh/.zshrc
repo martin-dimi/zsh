@@ -5,7 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
 ###################################################
 # Options
 unsetopt menu_complete
@@ -71,6 +70,7 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 # Plugins.. To configure theme type p10k.
 source $ZDOTDIR/plugins/powerlevel10k/powerlevel10k.zsh-theme
 source $ZDOTDIR/.p10k.zsh
+source $ZDOTDIR/paths.zsh
 source $ZDOTDIR/aliases.zsh
 
 source $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -84,12 +84,5 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-# Paths.
-source $ZDOTDIR/paths.zsh
-
 # NVM
-source $(brew --prefix nvm)/nvm.sh
-
-if [ -d "$(brew --prefix)/opt/grep/libexec/gnubin" ]; then
-    PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"
-fi
+# source $(brew --prefix nvm)/nvm.sh
