@@ -28,13 +28,49 @@ yabai -m config mouse_action2 resize
 # set focus follows mouse mode (default: off, options: off, autoraise, autofocus)
 yabai -m config focus_follows_mouse autoraise
 # set mouse follows focus mode (default: off)
-yabai -m config mouse_follows_focus on
+# yabai -m config mouse_follows_focus on
 
-yabai -m config window_opacity on
-yabai -m config active_window_opacity 1.0
-yabai -m config normal_window_opacity 0.9
+# Opacity
+yabai -m config window_opacity off
+# yabai -m config active_window_opacity 1.0
+# yabai -m config normal_window_opacity 0.9
 
-yabai -m config window_border off
-yabai -m config window_border_width 1
-yabai -m config active_window_border_color 0xFFFF6188
-yabai -m config normal_window_border_color 0xff555555
+# Ignore managing these apps
+yabai -m rule --add app="^System Preferences$" manage=off
+
+# Setup spaces
+# Cleanup
+# for _ in $(yabai -m query --spaces | jq '.[].index | select(. > 6)'); do
+#   yabai -m space --destroy 7
+# done
+
+function setup_space {
+  local idx="$1"
+  local name="$2"
+  local space=
+  echo "setup space $idx : $name"
+
+  space=$(yabai -m query --spaces --space "$idx")
+  if [ -z "$space" ]; then
+    yabai -m space --create
+  fi
+
+  yabai -m space "$idx" --label "$name"
+}
+
+setup_space 1 web
+setup_space 2 emacs
+setup_space 3 social
+setup_space 4 terminal
+setup_space 5 spotify
+setup_space 6 productivity
+
+# ^ Means to focus after opening
+# https://d12frosted.io/posts/2022-04-23-yabai-spaces.html
+yabai -m rule --add app="^Google Chrome" space=^1
+yabai -m rule --add app="^Emacs" space=^2
+yabai -m rule --add app="^Slack" space=3
+yabai -m rule --add app="^Alacritty" space=^4
+yabai -m rule --add app="^Spotify$" space=^5
+yabai -m rule --add app="^Linear" space=^6
+yabai -m rule --add app="^TickTick" space=6
