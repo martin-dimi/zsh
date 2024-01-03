@@ -96,9 +96,9 @@
       #'lsp-format-buffer)
 
 (map!
-      :desc "Format buffer (lsp)"
-      "s-o"
-      #'+vterm/toggle)
+ :desc "Format buffer (lsp)"
+ "s-o"
+ #'+vterm/toggle)
 
 ;; Use format package instead of in-built lsp formatter. This allows stuff like prettier to work.
 (setq +format-with-lsp nil)
@@ -110,3 +110,17 @@
               ("TAB" . 'copilot-accept-completion)
               ("C-TAB" . 'copilot-accept-completion-by-word)
               ("C-<tab>" . 'copilot-accept-completion-by-word)))
+
+
+;; (map! :v "J" 'drag-stuff-down)
+;; (map! :v "K" 'drag-stuff-up)
+;; (map! :n "J" 'drag-stuff-down)
+;; (map! :n "K" 'drag-stuff-up)
+;; (map! :n "P" '+evil/alt-paste)
+
+(map! :n "]e" 'flycheck-next-error)
+(map! :n "[e" 'flycheck-previous-error)
+
+(setq scroll-margin 8)
+
+(setq gc-cons-threshold 250000000)

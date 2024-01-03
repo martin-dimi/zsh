@@ -44,33 +44,33 @@ yabai -m rule --add app="^System Preferences$" manage=off
 #   yabai -m space --destroy 7
 # done
 
-function setup_space {
-  local idx="$1"
-  local name="$2"
-  local space=
-  echo "setup space $idx : $name"
+# function setup_space {
+#   local idx="$1"
+#   local name="$2"
+#   local space=
+#   echo "setup space $idx : $name"
 
-  space=$(yabai -m query --spaces --space "$idx")
-  if [ -z "$space" ]; then
-    yabai -m space --create
-  fi
+#   space=$(yabai -m query --spaces --space "$idx")
+#   if [ -z "$space" ]; then
+#     yabai -m space --create
+#   fi
 
-  yabai -m space "$idx" --label "$name"
-}
+#   yabai -m space "$idx" --label "$name"
+# }
 
-setup_space 1 web
-setup_space 2 emacs
-setup_space 3 social
-setup_space 4 terminal
-setup_space 5 spotify
-setup_space 6 productivity
+# setup_space 1 web
+# setup_space 2 emacs
+# setup_space 3 social
+# setup_space 4 terminal
+# setup_space 5 spotify
+# setup_space 6 productivity
 
 # ^ Means to focus after opening
 # https://d12frosted.io/posts/2022-04-23-yabai-spaces.html
-yabai -m rule --add app="^Google Chrome" space=^1
-yabai -m rule --add app="^Emacs" space=^2
-yabai -m rule --add app="^Slack" space=3
-yabai -m rule --add app="^Alacritty" space=^4
-yabai -m rule --add app="^Spotify$" space=^5
-yabai -m rule --add app="^Linear" space=^6
-yabai -m rule --add app="^TickTick" space=6
+# yabai -m rule --add app="^Google Chrome" space=^1
+# yabai -m rule --add app="^Emacs" space=^2
+# yabai -m rule --add app="^Slack" space=3
+# yabai -m rule --add app="^Alacritty" space=^4
+# yabai -m rule --add app="^Spotify$" space=^5
+# yabai -m rule --add app="^Linear" space=^6
+# yabai -m rule --add app="^TickTick" space=6

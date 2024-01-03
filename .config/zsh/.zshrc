@@ -85,4 +85,4 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 # NVM
-# source $(brew --prefix nvm)/nvm.sh
+source $HOME/.nvm/nvm.sh
